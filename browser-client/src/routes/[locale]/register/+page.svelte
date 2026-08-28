@@ -1,10 +1,12 @@
 <script lang="ts">
   import type { Locale } from "$lib/Locale";
+  import Header from "../../../Header.svelte";
 
   let { locale }: { locale: Locale } = $props()
 
 </script>
 
+<Header locale={locale} />
 <section>
   <div class="section-inner">
     {#key locale}

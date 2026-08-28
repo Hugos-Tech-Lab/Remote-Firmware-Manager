@@ -9,15 +9,24 @@
 <header>
   <div class="section-inner">
     <Logo />
-    <Translations {locale} />
+    <!-- <Translations {locale} /> -->
+    <h1 class="title">
+      Remote Firmware Manager
+    </h1>
   </div>
 </header>
 
 <style>
-  header {
-    min-height: 20vh;
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    top: 0;
+    right: 0;
+    text-align: right;
   }
-  
+
   .section-inner {
     display: flex;
     align-items: center;

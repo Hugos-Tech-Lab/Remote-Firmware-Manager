@@ -11,6 +11,8 @@ msgstr ""
 msgid "/"
 msgstr "/"
 
+#. /register
+#: src/routes/[locale]/+page.svelte
 #, url:main
 msgid "/**"
 msgstr "/**"
@@ -62,12 +64,14 @@ msgid "{0}px"
 msgstr "{0}px"
 
 #: src/SectionHome.svelte
+#: src/routes/[locale]/+page.svelte
 #: src/routes/[locale]/register/+page.svelte
 msgid "We support you with electronics, tools, and programming.."
 msgstr "We support you with electronics, tools, and programming.."
 
 #: src/Logo.svelte
 #: src/SectionHome.svelte
+#: src/routes/[locale]/+page.svelte
 #: src/routes/[locale]/register/+page.svelte
 msgid "Hugo's Tech Lab"
 msgstr "Hugo's Tech Lab"
@@ -123,29 +127,31 @@ msgstr "By an Australian (who has an Austrian mum and an Italian dad..)"
 #~ msgid "FIX ANYTHING YOURSELF"
 #~ msgstr "FIX ANYTHING YOURSELF"
 
-#: src/App.svelte
+#: src/Footer.svelte
 msgid "Author: Design Circle"
 msgstr "Author: Design Circle"
 
-#: src/App.svelte
+#: src/Footer.svelte
 msgid "Flaticon Website"
 msgstr "Flaticon Website"
 
-#: src/App.svelte
+#: src/Footer.svelte
 msgid "Author: Uniconlabs"
 msgstr "Author: Uniconlabs"
 
 #. 0: new Date().getFullYear()
-#: src/App.svelte
+#: src/Footer.svelte
 msgid "© {0} Hugo Luccarini. All Rights Reserved. Czech Business Number (IČO): 29876834. Icons made by <0>Design Circle</0> and <1>Uniconlabs</1> from <2>flaticon.com</2>"
 msgstr "© {0} Hugo Luccarini. All Rights Reserved. Czech Business Number (IČO): 29876834. Icons made by <0>Design Circle</0> and <1>Uniconlabs</1> from <2>flaticon.com</2>"
 
 #: src/SectionHome.svelte
+#: src/routes/[locale]/+page.svelte
 #: src/routes/[locale]/register/+page.svelte
 msgid "Sign in"
 msgstr "Sign in"
 
 #: src/SectionHome.svelte
+#: src/routes/[locale]/+page.svelte
 #: src/routes/[locale]/register/+page.svelte
 msgid "Register"
 msgstr "Register"
@@ -157,20 +163,24 @@ msgstr "Register"
 #~ msgstr "Locations"
 
 #: src/SectionHome.svelte
+#: src/routes/[locale]/+page.svelte
 #: src/routes/[locale]/register/+page.svelte
 msgid "Car1"
 msgstr "Car1"
 
 #: src/SectionHome.svelte
+#: src/routes/[locale]/+page.svelte
 #: src/routes/[locale]/register/+page.svelte
 msgid "Car2"
 msgstr "Car2"
 
 #: src/SectionHome.svelte
+#: src/routes/[locale]/+page.svelte
 msgid "Select Location"
 msgstr "Select Location"
 
 #: src/SectionHome.svelte
+#: src/routes/[locale]/+page.svelte
 #: src/routes/[locale]/register/+page.svelte
 msgid "Select Device"
 msgstr "Select Device"
@@ -186,3 +196,10 @@ msgstr "Username"
 #: src/routes/+page.svelte
 msgid "Redirecting to {0}..."
 msgstr "Redirecting to {0}..."
+
+#~ msgid "asd"
+#~ msgstr "asd"
+
+#: src/Header.svelte
+msgid "Remote Firmware Manager"
+msgstr "Remote Firmware Manager"

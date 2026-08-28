@@ -28,8 +28,8 @@ body {
 
 button {
   width: fit-content;
-  background: #fff9e0;
-  border: 2px solid rgb(0, 0, 0);
+  background: none;
+  border: 1px solid rgb(11, 0, 75);
   padding: 10px;
   border-radius: 2px;
   font: inherit;
