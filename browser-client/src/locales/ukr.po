@@ -1,0 +1,139 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"Source-Language: eng\n"
+"Language: ukr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#, url:main
+msgid "/"
+msgstr "/"
+
+#, url:main
+msgid "/**"
+msgstr "/**"
+
+#~ msgid "WE SUPPORT DIY"
+#~ msgstr "МИ ПІДТРИМУЄМО «ЗРОБИ САМ»"
+
+#~ msgid "Laptop broken?"
+#~ msgstr "Ноутбук зламався?"
+
+#~ msgid "Printer not working?"
+#~ msgstr "Принтер не працює?"
+
+#~ msgid "Retro game controller malfunctioning?"
+#~ msgstr "Ретро-ігровий контролер не працює належним чином?"
+
+#: src/SectionWebsites.svelte
+msgid "Television playing up?"
+msgstr "Телевізор барахлить?"
+
+#~ msgid "Phone screen smashed?"
+#~ msgstr "Розбився екран телефону?"
+
+#: src/SectionWebsites.svelte
+msgid "We provide the<0/> tools and workspace"
+msgstr "Ми надаємо <0/> інструменти та робоче середовище"
+
+#: src/SectionContact.svelte
+msgid "BUILT IN BRNO"
+msgstr "ВИГОТОВЛЕНО У БРНО"
+
+#: src/SectionContact.svelte
+msgid "BUILT IN CZECHIA"
+msgstr "ВИГОТОВЛЕНО В ЧЕХІЇ"
+
+#: src/SectionContact.svelte
+msgid "BUILT IN EUROPE"
+msgstr "ВИГОТОВЛЕНО В ЄВРОПІ"
+
+#: src/SectionContact.svelte
+msgid "<0/>Visit Us<1/> Poštovská 455/8 <2/> 602 00 Brno <3/>Czech Republic"
+msgstr "<0/>Завітайте до нас<1/> Поштовська, 455/8 <2/> 602 00 Брно <3/>Чеська Республіка"
+
+#. 0: width
+#. 0: height
+#: src/Measurements.svelte
+#: src/Measurements.svelte
+msgid "{0}px"
+msgstr "{0}px"
+
+#: src/SectionHome.svelte
+msgid "We support you with electronics, tools, and programming.."
+msgstr "Ми надаємо вам підтримку в галузі електроніки, інструментів та програмування..."
+
+#: src/Logo.svelte
+msgid "Hugo's Tech Lab"
+msgstr "Hugo's Tech Lab"
+
+#: src/SectionWebsites.svelte
+msgid "WE BUILD WEBSITES"
+msgstr "МИ СТВОРЮЄМО ВЕБ-САЙТИ"
+
+#: src/SectionWebsites.svelte
+msgid "That are simple anyone can read the code"
+msgstr "Вони настільки прості, що будь-хто може прочитати цей код"
+
+#: src/SectionWebsites.svelte
+msgid "That are effective to get everyone interested"
+msgstr "Які дозволяють зацікавити всіх"
+
+#: src/SectionWebsites.svelte
+msgid "That are perfect for small businesses"
+msgstr "Які ідеально підходять для малого бізнесу"
+
+#: src/SectionWebsites.svelte
+msgid "That are open source"
+msgstr "Які є відкритими"
+
+#: src/Translations.svelte
+msgid "ENG"
+msgstr "ENG"
+
+#: src/ThemeButton.svelte
+msgid "Light"
+msgstr "Light"
+
+#: src/ThemeButton.svelte
+msgid "Dark"
+msgstr "Dark"
+
+#: src/routes/+error.svelte
+msgid "Not found"
+msgstr "Не знайдено"
+
+#: src/Translations.svelte
+msgid "CZE"
+msgstr "CZE"
+
+#: src/Translations.svelte
+msgid "UKR"
+msgstr "UKR"
+
+#: src/SectionContact.svelte
+msgid "By an Australian (who has an Austrian mum and an Italian dad..)"
+msgstr "Створено австралієць (у якого мама австрійка, а тато, італієць...)"
+
+#: src/SectionHome.svelte
+msgid "FIX ANYTHING YOURSELF"
+msgstr "РЕМОНТУЙТЕ ВСЕ САМІ"
+
+#: src/App.svelte
+msgid "Author: Design Circle"
+msgstr "Автор: Design Circle"
+
+#: src/App.svelte
+msgid "Flaticon Website"
+msgstr "Веб-сайт Flaticon"
+
+#: src/App.svelte
+msgid "Author: Uniconlabs"
+msgstr "Автор: Uniconlabs"
+
+#. 0: new Date().getFullYear()
+#: src/App.svelte
+msgid "© {0} Hugo Luccarini. All Rights Reserved. Czech Business Number (IČO): 29876834. Icons made by <0>Design Circle</0> and <1>Uniconlabs</1> from <2>flaticon.com</2>"
+msgstr "© {0} Хуго Луккаріні. Усі права захищені. Чеський ідентифікаційний номер підприємства (IČO): 29876834. Іконки створено <0>Design Circle</0> та <1>Uniconlabs</1> з сайту <2>flaticon.com</2>"

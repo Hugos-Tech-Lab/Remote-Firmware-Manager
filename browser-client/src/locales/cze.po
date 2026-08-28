@@ -1,0 +1,139 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"Source-Language: eng\n"
+"Language: cze\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#, url:main
+msgid "/"
+msgstr "/"
+
+#, url:main
+msgid "/**"
+msgstr "/**"
+
+#~ msgid "WE SUPPORT DIY"
+#~ msgstr "PODPORUJEME KUTILSTVÍ"
+
+#~ msgid "Laptop broken?"
+#~ msgstr "Je počítač rozbitý?"
+
+#~ msgid "Printer not working?"
+#~ msgstr "Tiskárna nefunguje?"
+
+#~ msgid "Retro game controller malfunctioning?"
+#~ msgstr "Nefunguje správně retro herní ovladač?"
+
+#: src/SectionWebsites.svelte
+msgid "Television playing up?"
+msgstr "Problémy s televizí?"
+
+#~ msgid "Phone screen smashed?"
+#~ msgstr "Rozbitá obrazovka telefonu?"
+
+#: src/SectionWebsites.svelte
+msgid "We provide the<0/> tools and workspace"
+msgstr "Poskytujeme <0/> nástroje a pracovní prostředí"
+
+#: src/SectionContact.svelte
+msgid "BUILT IN BRNO"
+msgstr "VYROBENO V BRNĚ"
+
+#: src/SectionContact.svelte
+msgid "BUILT IN CZECHIA"
+msgstr "VYROBENO V ČESKU"
+
+#: src/SectionContact.svelte
+msgid "BUILT IN EUROPE"
+msgstr "VYROBENO V EVROPĚ"
+
+#: src/SectionContact.svelte
+msgid "<0/>Visit Us<1/> Poštovská 455/8 <2/> 602 00 Brno <3/>Czech Republic"
+msgstr "<0/>Navštivte nás<1/> Poštovská 455/8 <2/> 602 00 Brno <3/>Česká republika"
+
+#. 0: width
+#. 0: height
+#: src/Measurements.svelte
+#: src/Measurements.svelte
+msgid "{0}px"
+msgstr "{0}px"
+
+#: src/SectionHome.svelte
+msgid "We support you with electronics, tools, and programming.."
+msgstr "Pomůžeme vám s elektronikou, nářadím a programováním..."
+
+#: src/Logo.svelte
+msgid "Hugo's Tech Lab"
+msgstr "Hugo's Tech Lab"
+
+#: src/SectionWebsites.svelte
+msgid "WE BUILD WEBSITES"
+msgstr "VYTVÁŘÍME WEBOVÉ STRÁNKY"
+
+#: src/SectionWebsites.svelte
+msgid "That are simple anyone can read the code"
+msgstr "Jsou tak jednoduché, že kód si může přečíst kdokoli"
+
+#: src/SectionWebsites.svelte
+msgid "That are effective to get everyone interested"
+msgstr "Které dokážou zaujmout každého"
+
+#: src/SectionWebsites.svelte
+msgid "That are perfect for small businesses"
+msgstr "Které jsou ideální pro malé podniky"
+
+#: src/SectionWebsites.svelte
+msgid "That are open source"
+msgstr "Které jsou open source"
+
+#: src/Translations.svelte
+msgid "ENG"
+msgstr "ENG"
+
+#: src/ThemeButton.svelte
+msgid "Light"
+msgstr "Light"
+
+#: src/ThemeButton.svelte
+msgid "Dark"
+msgstr "Dark"
+
+#: src/routes/+error.svelte
+msgid "Not found"
+msgstr "Nenalezeno"
+
+#: src/Translations.svelte
+msgid "CZE"
+msgstr "CZE"
+
+#: src/Translations.svelte
+msgid "UKR"
+msgstr "UKR"
+
+#: src/SectionContact.svelte
+msgid "By an Australian (who has an Austrian mum and an Italian dad..)"
+msgstr "Od jednoho Australana (který má rakouskou maminku a italského tatínka...)"
+
+#: src/SectionHome.svelte
+msgid "FIX ANYTHING YOURSELF"
+msgstr "OPRAVTE SI COKOLIV SAMI"
+
+#: src/App.svelte
+msgid "Author: Design Circle"
+msgstr "Autor: Design Circle"
+
+#: src/App.svelte
+msgid "Flaticon Website"
+msgstr "Webové stránky Flaticon"
+
+#: src/App.svelte
+msgid "Author: Uniconlabs"
+msgstr "Autor: Uniconlabs"
+
+#. 0: new Date().getFullYear()
+#: src/App.svelte
+msgid "© {0} Hugo Luccarini. All Rights Reserved. Czech Business Number (IČO): 29876834. Icons made by <0>Design Circle</0> and <1>Uniconlabs</1> from <2>flaticon.com</2>"
+msgstr "© {0} Hugo Luccarini. Všechna práva vyhrazena. Identifikační Číslo Osoby (IČO): 29876834. Ikony vytvořil: <0>Design Circle</0> a <1>Uniconlabs</1> z webu <2>flaticon.com</2>"
