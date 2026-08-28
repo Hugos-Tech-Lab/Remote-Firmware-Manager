@@ -127,22 +127,17 @@ msgstr "By an Australian (who has an Austrian mum and an Italian dad..)"
 #~ msgid "FIX ANYTHING YOURSELF"
 #~ msgstr "FIX ANYTHING YOURSELF"
 
-#: src/Footer.svelte
-msgid "Author: Design Circle"
-msgstr "Author: Design Circle"
+#~ msgid "Author: Design Circle"
+#~ msgstr "Author: Design Circle"
 
-#: src/Footer.svelte
-msgid "Flaticon Website"
-msgstr "Flaticon Website"
+#~ msgid "Flaticon Website"
+#~ msgstr "Flaticon Website"
 
-#: src/Footer.svelte
-msgid "Author: Uniconlabs"
-msgstr "Author: Uniconlabs"
+#~ msgid "Author: Uniconlabs"
+#~ msgstr "Author: Uniconlabs"
 
-#. 0: new Date().getFullYear()
-#: src/Footer.svelte
-msgid "© {0} Hugo Luccarini. All Rights Reserved. Czech Business Number (IČO): 29876834. Icons made by <0>Design Circle</0> and <1>Uniconlabs</1> from <2>flaticon.com</2>"
-msgstr "© {0} Hugo Luccarini. All Rights Reserved. Czech Business Number (IČO): 29876834. Icons made by <0>Design Circle</0> and <1>Uniconlabs</1> from <2>flaticon.com</2>"
+#~ msgid "© {0} Hugo Luccarini. All Rights Reserved. Czech Business Number (IČO): 29876834. Icons made by <0>Design Circle</0> and <1>Uniconlabs</1> from <2>flaticon.com</2>"
+#~ msgstr "© {0} Hugo Luccarini. All Rights Reserved. Czech Business Number (IČO): 29876834. Icons made by <0>Design Circle</0> and <1>Uniconlabs</1> from <2>flaticon.com</2>"
 
 #: src/SectionHome.svelte
 #: src/routes/[locale]/+page.svelte
@@ -225,10 +220,23 @@ msgstr "Welcome to the Remote Firmware Manager."
 #~ msgid "Here you can remotely manage software on real hardware devices in the Tech Lab."
 #~ msgstr "Here you can remotely manage software on real hardware devices in the Tech Lab."
 
-#: src/routes/[locale]/+page.svelte
-msgid "Here you can remotely manage software on real hardware devices in the lab."
-msgstr "Here you can remotely manage software on real hardware devices in the lab."
+#~ msgid "Here you can remotely manage software on real hardware devices in the lab."
+#~ msgstr "Here you can remotely manage software on real hardware devices in the lab."
+
+#~ msgid "To start your journey, please register or sign in."
+#~ msgstr "To start your journey, please register or sign in."
+
+#~ msgid "Here you can remotely manage software on real hardware devices in the lab. To start your journey, please register or sign in."
+#~ msgstr "Here you can remotely manage software on real hardware devices in the lab. To start your journey, please register or sign in."
+
+#~ msgid "Here you can remotely manage software on real hardware devices in the lab. To start your journey, please register or sign in (top right)"
+#~ msgstr "Here you can remotely manage software on real hardware devices in the lab. To start your journey, please register or sign in (top right)"
 
 #: src/routes/[locale]/+page.svelte
-msgid "To start your journey, please register or sign in."
-msgstr "To start your journey, please register or sign in."
+msgid "Here you can remotely manage software on real hardware devices in the lab. To start your journey, please register or sign in (top right)."
+msgstr "Here you can remotely manage software on real hardware devices in the lab. To start your journey, please register or sign in (top right)."
+
+#. 0: new Date().getFullYear()
+#: src/Footer.svelte
+msgid "© {0} Hugo Luccarini. All Rights Reserved. Czech Business Number (IČO): 29876834."
+msgstr "© {0} Hugo Luccarini. All Rights Reserved. Czech Business Number (IČO): 29876834."

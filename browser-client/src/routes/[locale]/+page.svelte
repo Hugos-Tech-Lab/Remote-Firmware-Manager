@@ -16,14 +16,11 @@
         <button onclick={() => goto("/register")}>Register</button>
         <button onclick={() => goto("/sign-in")}>Sign in</button>
     </div>
-    <h1 class="pr-48">
+    <h1 class="pr-48 text-4xl">
         Welcome to the Remote Firmware Manager.
     </h1>
     <h2 class="pr-48">
-        Here you can remotely manage software on real hardware devices in the lab.
-    </h2>
-    <h2 class="pr-48">
-        To start your journey, please register or sign in.
+        Here you can remotely manage software on real hardware devices in the lab. To start your journey, please register or sign in (top right).
     </h2>
     <!-- <h1>Select Location</h1>
     <button>Hugo's Tech Lab</button>
