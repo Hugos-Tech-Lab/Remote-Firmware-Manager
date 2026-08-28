@@ -66,6 +66,7 @@ msgid "We support you with electronics, tools, and programming.."
 msgstr "We support you with electronics, tools, and programming.."
 
 #: src/Logo.svelte
+#: src/SectionHome.svelte
 msgid "Hugo's Tech Lab"
 msgstr "Hugo's Tech Lab"
 
@@ -117,9 +118,8 @@ msgstr "UKR"
 msgid "By an Australian (who has an Austrian mum and an Italian dad..)"
 msgstr "By an Australian (who has an Austrian mum and an Italian dad..)"
 
-#: src/SectionHome.svelte
-msgid "FIX ANYTHING YOURSELF"
-msgstr "FIX ANYTHING YOURSELF"
+#~ msgid "FIX ANYTHING YOURSELF"
+#~ msgstr "FIX ANYTHING YOURSELF"
 
 #: src/App.svelte
 msgid "Author: Design Circle"
@@ -137,3 +137,33 @@ msgstr "Author: Uniconlabs"
 #: src/App.svelte
 msgid "© {0} Hugo Luccarini. All Rights Reserved. Czech Business Number (IČO): 29876834. Icons made by <0>Design Circle</0> and <1>Uniconlabs</1> from <2>flaticon.com</2>"
 msgstr "© {0} Hugo Luccarini. All Rights Reserved. Czech Business Number (IČO): 29876834. Icons made by <0>Design Circle</0> and <1>Uniconlabs</1> from <2>flaticon.com</2>"
+
+#: src/SectionHome.svelte
+msgid "Sign in"
+msgstr "Sign in"
+
+#: src/SectionHome.svelte
+msgid "Register"
+msgstr "Register"
+
+#~ msgid "Location"
+#~ msgstr "Location"
+
+#~ msgid "Locations"
+#~ msgstr "Locations"
+
+#: src/SectionHome.svelte
+msgid "Car1"
+msgstr "Car1"
+
+#: src/SectionHome.svelte
+msgid "Car2"
+msgstr "Car2"
+
+#: src/SectionHome.svelte
+msgid "Select Location"
+msgstr "Select Location"
+
+#: src/SectionHome.svelte
+msgid "Select Device"
+msgstr "Select Device"

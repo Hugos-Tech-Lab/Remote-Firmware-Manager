@@ -1,26 +1,30 @@
 <script lang="ts">
   import type { Locale } from "$lib/Locale";
-  import { loadLocale } from 'wuchale/load-utils'
+  import { loadLocale } from "wuchale/load-utils";
   import { goto } from "$app/navigation";
 
-	let { locale }: { locale: Locale } = $props();
+  let { locale }: { locale: Locale } = $props();
 
-	async function changeLocale(newLocale: Locale) {
-		if (newLocale === locale) return;
+  async function changeLocale(newLocale: Locale) {
+    if (newLocale === locale) return;
 
-		await loadLocale(newLocale);
+    await loadLocale(newLocale);
 
-		const url = new URL(window.location.href);
-		url.pathname = `/${newLocale}${url.pathname.replace(/^\/(eng|cze|ukr)/, '')}`;
+    const pathWithoutLocale = window.location.pathname.replace(
+      /^\/(eng|cze|ukr)(?=\/|$)/,
+      "",
+    );
 
-		await goto(url);
-	}
+    const newPath = `/${newLocale}${pathWithoutLocale}`;
+
+    await goto(newPath);
+  }
 </script>
 
 <div>
   <button class:active={locale === "eng"} onclick={() => changeLocale("eng")}>ENG</button>
   <button class:active={locale === "cze"} onclick={() => changeLocale("cze")}>CZE</button>
-  <button class:active={locale === "ukr"} onclick={() => changeLocale('ukr')}>UKR</button>
+  <button class:active={locale === "ukr"} onclick={() => changeLocale("ukr")}>UKR</button>
 </div>
 
 <style>

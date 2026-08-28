@@ -13,15 +13,7 @@
   :global(html) {
     font-family: "Cousin", system-ui, sans-serif;
     color: #08060d;
-    background: radial-gradient(circle at top left, #fff7d0 0%, transparent 30%),
-      radial-gradient(circle at top right, #fff8d5 0%, transparent 30%),
-      radial-gradient(
-        circle at bottom left,
-        rgb(255, 244, 190) 0%,
-        transparent 30%
-      ),
-      radial-gradient(circle at bottom right, #fff7d2 0%, transparent 30%),
-      #fff9e0;
+    background: red;
     font-weight: bold;
   }
 </style>
