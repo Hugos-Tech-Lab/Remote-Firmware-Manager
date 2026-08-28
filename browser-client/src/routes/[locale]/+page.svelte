@@ -11,16 +11,19 @@
 <Header locale={data.locale as Locale} />
 
 <section>
-  <div class="section-inner relative">
-    <div class="absolute top-4 right-4 flex gap-2">
-        <button onclick={() => goto("/register")}>Register</button>
+  <div class="section-inner main relative">
+    <div class="absolute top-4 right-4 flex flex-col items-end gap-2">
+      <div class="top-4 right-4 flex gap-2">
         <button onclick={() => goto("/sign-in")}>Sign in</button>
+        <button onclick={() => goto("/register")}>Register</button>
+      </div>
+
+      <button onclick={() => goto("/register")}>Settings</button>
     </div>
-    <h1 class="pr-48 text-4xl">
-        Welcome to the Remote Firmware Manager.
-    </h1>
+    <h1 class="pr-48 text-4xl">Welcome to the Remote Firmware Manager.</h1>
     <h2 class="pr-48">
-        Here you can remotely manage software on real hardware devices in the lab. To start your journey, please register or sign in (top right).
+      Here you can remotely manage software on real hardware devices in the lab.
+      To start your journey, please register or sign in (top right).
     </h2>
     <!-- <h1>Select Location</h1>
     <button>Hugo's Tech Lab</button>
@@ -32,21 +35,3 @@
 </section>
 
 <Footer />
-
-<style lang="postcss">
-  @reference "tailwindcss";
-  :global(html) {
-    font-family: "Cousin", system-ui, sans-serif;
-    color: #08060d;
-    background: rgb(245, 249, 255);
-    font-weight: bold;
-  }
-
-  section {
-    min-height: 80vh;
-  }
-
-  .section-inner {
-    border: 1px solid rgb(0, 36, 156);
-  }
-</style>

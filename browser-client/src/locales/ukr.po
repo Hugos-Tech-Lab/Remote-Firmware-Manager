@@ -11,8 +11,10 @@ msgstr ""
 msgid "/"
 msgstr "/"
 
-#. /register
 #. /sign-in
+#. /register
+#. /register
+#: src/routes/[locale]/+page.svelte
 #: src/routes/[locale]/+page.svelte
 #: src/routes/[locale]/+page.svelte
 #, url:main
@@ -241,4 +243,8 @@ msgstr ""
 #. 0: new Date().getFullYear()
 #: src/Footer.svelte
 msgid "© {0} Hugo Luccarini. All Rights Reserved. Czech Business Number (IČO): 29876834."
+msgstr ""
+
+#: src/routes/[locale]/+page.svelte
+msgid "Settings"
 msgstr ""

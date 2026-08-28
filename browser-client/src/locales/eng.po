@@ -11,8 +11,10 @@ msgstr ""
 msgid "/"
 msgstr "/"
 
-#. /register
 #. /sign-in
+#. /register
+#. /register
+#: src/routes/[locale]/+page.svelte
 #: src/routes/[locale]/+page.svelte
 #: src/routes/[locale]/+page.svelte
 #, url:main
@@ -242,3 +244,7 @@ msgstr "Here you can remotely manage software on real hardware devices in the la
 #: src/Footer.svelte
 msgid "© {0} Hugo Luccarini. All Rights Reserved. Czech Business Number (IČO): 29876834."
 msgstr "© {0} Hugo Luccarini. All Rights Reserved. Czech Business Number (IČO): 29876834."
+
+#: src/routes/[locale]/+page.svelte
+msgid "Settings"
+msgstr "Settings"
