@@ -1,19 +1,17 @@
 <script lang="ts">
-  import { type Locale } from "$lib/Locale";
-  import App from "../App.svelte";
-  import type { PageData } from "./$types";
+	import { browser } from '$app/environment';
+	import { goto } from '$app/navigation';
 
-  let { data }: { data: PageData } = $props();
+	let locale = $state('eng');
+
+	if (browser) {
+		const language = navigator.language.toLowerCase();
+
+		locale =
+			language.startsWith('cs') ? 'cze' :
+			language.startsWith('uk') ? 'ukr' :
+			'eng';
+	}
 </script>
 
-<App locale={data.locale as Locale} />
-
-<style lang="postcss">
-  @reference "tailwindcss";
-  :global(html) {
-    font-family: "Cousin", system-ui, sans-serif;
-    color: #08060d;
-    background: red;
-    font-weight: bold;
-  }
-</style>
+<p>Redirecting to {locale}...</p>

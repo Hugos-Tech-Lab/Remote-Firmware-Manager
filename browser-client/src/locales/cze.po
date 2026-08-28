@@ -62,11 +62,13 @@ msgid "{0}px"
 msgstr "{0}px"
 
 #: src/SectionHome.svelte
+#: src/routes/[locale]/register/+page.svelte
 msgid "We support you with electronics, tools, and programming.."
 msgstr "Pomůžeme vám s elektronikou, nářadím a programováním..."
 
 #: src/Logo.svelte
 #: src/SectionHome.svelte
+#: src/routes/[locale]/register/+page.svelte
 msgid "Hugo's Tech Lab"
 msgstr "Hugo's Tech Lab"
 
@@ -139,10 +141,12 @@ msgid "© {0} Hugo Luccarini. All Rights Reserved. Czech Business Number (IČO):
 msgstr "© {0} Hugo Luccarini. Všechna práva vyhrazena. Identifikační Číslo Osoby (IČO): 29876834. Ikony vytvořil: <0>Design Circle</0> a <1>Uniconlabs</1> z webu <2>flaticon.com</2>"
 
 #: src/SectionHome.svelte
+#: src/routes/[locale]/register/+page.svelte
 msgid "Sign in"
 msgstr ""
 
 #: src/SectionHome.svelte
+#: src/routes/[locale]/register/+page.svelte
 msgid "Register"
 msgstr ""
 
@@ -153,10 +157,12 @@ msgstr ""
 #~ msgstr ""
 
 #: src/SectionHome.svelte
+#: src/routes/[locale]/register/+page.svelte
 msgid "Car1"
 msgstr ""
 
 #: src/SectionHome.svelte
+#: src/routes/[locale]/register/+page.svelte
 msgid "Car2"
 msgstr ""
 
@@ -165,5 +171,18 @@ msgid "Select Location"
 msgstr ""
 
 #: src/SectionHome.svelte
+#: src/routes/[locale]/register/+page.svelte
 msgid "Select Device"
+msgstr ""
+
+#~ msgid "User name"
+#~ msgstr ""
+
+#: src/routes/[locale]/register/+page.svelte
+msgid "Username"
+msgstr ""
+
+#. 0: locale
+#: src/routes/+page.svelte
+msgid "Redirecting to {0}..."
 msgstr ""
