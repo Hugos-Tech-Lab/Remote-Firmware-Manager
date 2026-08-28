@@ -236,9 +236,8 @@ msgstr ""
 #~ msgid "Here you can remotely manage software on real hardware devices in the lab. To start your journey, please register or sign in (top right)"
 #~ msgstr ""
 
-#: src/routes/[locale]/+page.svelte
-msgid "Here you can remotely manage software on real hardware devices in the lab. To start your journey, please register or sign in (top right)."
-msgstr ""
+#~ msgid "Here you can remotely manage software on real hardware devices in the lab. To start your journey, please register or sign in (top right)."
+#~ msgstr ""
 
 #. 0: new Date().getFullYear()
 #: src/Footer.svelte
@@ -247,4 +246,21 @@ msgstr ""
 
 #: src/routes/[locale]/+page.svelte
 msgid "Settings"
+msgstr ""
+
+#~ msgid "Check out the source code: https://github.com/Hugos-Tech-Lab/Remote-Firmware-Manager"
+#~ msgstr ""
+
+#~ msgid "Check out the source code of this website and the backend servers here: https://github.com/Hugos-Tech-Lab/Remote-Firmware-Manager"
+#~ msgstr ""
+
+#: src/routes/[locale]/+page.svelte
+msgid "Check out the source code of this website and the backend here: https://github.com/Hugos-Tech-Lab/Remote-Firmware-Manager"
+msgstr ""
+
+#~ msgid "Here you can remotely manage software on real hardware devices in the lab. To start your journey, register or sign in (top right)."
+#~ msgstr ""
+
+#: src/routes/[locale]/+page.svelte
+msgid "Here you can manage software on real hardware devices in the lab. To start your journey, register or sign in (top right)."
 msgstr ""
