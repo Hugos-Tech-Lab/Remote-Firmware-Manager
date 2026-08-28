@@ -72,6 +72,7 @@ msgstr "We support you with electronics, tools, and programming.."
 
 #: src/Logo.svelte
 #: src/SectionHome.svelte
+#: src/routes/[locale]/location/+page.svelte
 #: src/routes/[locale]/register/+page.svelte
 msgid "Hugo's Tech Lab"
 msgstr "Hugo's Tech Lab"
@@ -168,6 +169,7 @@ msgid "Car2"
 msgstr "Car2"
 
 #: src/SectionHome.svelte
+#: src/routes/[locale]/location/+page.svelte
 msgid "Select Location"
 msgstr "Select Location"
 
