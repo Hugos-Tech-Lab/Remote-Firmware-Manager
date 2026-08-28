@@ -11,15 +11,26 @@
 <Header locale={data.locale as Locale} />
 
 <section>
-  <div class="section-inner">
-    <button onclick={() => goto("/register")}>Register</button>
-    <button>Sign in</button>
-    <h1>Select Location</h1>
+  <div class="section-inner relative">
+    <div class="absolute top-4 right-4 flex gap-2">
+        <button onclick={() => goto("/register")}>Register</button>
+        <button onclick={() => goto("/sign-in")}>Sign in</button>
+    </div>
+    <h1 class="pr-48">
+        Welcome to the Remote Firmware Manager.
+    </h1>
+    <h2 class="pr-48">
+        Here you can remotely manage software on real hardware devices in the lab.
+    </h2>
+    <h2 class="pr-48">
+        To start your journey, please register or sign in.
+    </h2>
+    <!-- <h1>Select Location</h1>
     <button>Hugo's Tech Lab</button>
     <h1>Select Device</h1>
     <button>Car1</button>
     <button>Car2</button>
-    <h3>We support you with electronics, tools, and programming..</h3>
+    <h3>We support you with electronics, tools, and programming..</h3> -->
   </div>
 </section>
 

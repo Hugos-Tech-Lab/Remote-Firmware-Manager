@@ -12,6 +12,8 @@ msgid "/"
 msgstr "/"
 
 #. /register
+#. /sign-in
+#: src/routes/[locale]/+page.svelte
 #: src/routes/[locale]/+page.svelte
 #, url:main
 msgid "/**"
@@ -64,14 +66,12 @@ msgid "{0}px"
 msgstr "{0}px"
 
 #: src/SectionHome.svelte
-#: src/routes/[locale]/+page.svelte
 #: src/routes/[locale]/register/+page.svelte
 msgid "We support you with electronics, tools, and programming.."
 msgstr "Ми надаємо вам підтримку в галузі електроніки, інструментів та програмування..."
 
 #: src/Logo.svelte
 #: src/SectionHome.svelte
-#: src/routes/[locale]/+page.svelte
 #: src/routes/[locale]/register/+page.svelte
 msgid "Hugo's Tech Lab"
 msgstr "Hugo's Tech Lab"
@@ -163,24 +163,20 @@ msgstr ""
 #~ msgstr ""
 
 #: src/SectionHome.svelte
-#: src/routes/[locale]/+page.svelte
 #: src/routes/[locale]/register/+page.svelte
 msgid "Car1"
 msgstr ""
 
 #: src/SectionHome.svelte
-#: src/routes/[locale]/+page.svelte
 #: src/routes/[locale]/register/+page.svelte
 msgid "Car2"
 msgstr ""
 
 #: src/SectionHome.svelte
-#: src/routes/[locale]/+page.svelte
 msgid "Select Location"
 msgstr ""
 
 #: src/SectionHome.svelte
-#: src/routes/[locale]/+page.svelte
 #: src/routes/[locale]/register/+page.svelte
 msgid "Select Device"
 msgstr ""
@@ -202,4 +198,37 @@ msgstr ""
 
 #: src/Header.svelte
 msgid "Remote Firmware Manager"
+msgstr ""
+
+#~ msgid "Here you can remotely manage software on hardware devices. Intended for the tech lab, but perhaps generic enough to find it useful for yourself too?"
+#~ msgstr ""
+
+#~ msgid "Here you can remotely manage software in Hugo's Tech Lab devices. Intended for the tech lab, but perhaps generic enough to find it useful for yourself too?"
+#~ msgstr ""
+
+#~ msgid "Here you can remotely manage software in Hugo's Tech Lab. Intended for the tech lab, but perhaps generic enough to find it useful for yourself too?"
+#~ msgstr ""
+
+#~ msgid "Here you can remotely manage software in Hugo's Tech Lab."
+#~ msgstr ""
+
+#~ msgid "Welcome to the Remote Firmware Manager. Here you can remotely manage software in Hugo's Tech Lab."
+#~ msgstr ""
+
+#: src/routes/[locale]/+page.svelte
+msgid "Welcome to the Remote Firmware Manager."
+msgstr ""
+
+#~ msgid "Here you can remotely manage software on real hardware devices in Hugo's Tech Lab."
+#~ msgstr ""
+
+#~ msgid "Here you can remotely manage software on real hardware devices in the Tech Lab."
+#~ msgstr ""
+
+#: src/routes/[locale]/+page.svelte
+msgid "Here you can remotely manage software on real hardware devices in the lab."
+msgstr ""
+
+#: src/routes/[locale]/+page.svelte
+msgid "To start your journey, please register or sign in."
 msgstr ""

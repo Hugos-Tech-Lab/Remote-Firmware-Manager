@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { Locale } from "$lib/Locale";
+  import Footer from "../../../Footer.svelte";
   import Header from "../../../Header.svelte";
 
   let { locale }: { locale: Locale } = $props()
@@ -21,7 +22,7 @@
     {/key}
   </div>
 </section>
-
+<Footer />
 <style>
   section {
     min-height: 80vh;
